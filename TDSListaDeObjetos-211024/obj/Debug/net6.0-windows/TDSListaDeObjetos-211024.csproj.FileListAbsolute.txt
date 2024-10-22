@@ -1,0 +1,17 @@
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\bin\Debug\net6.0-windows\TDSListaDeObjetos-211024.exe
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\bin\Debug\net6.0-windows\TDSListaDeObjetos-211024.deps.json
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\bin\Debug\net6.0-windows\TDSListaDeObjetos-211024.runtimeconfig.json
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\bin\Debug\net6.0-windows\TDSListaDeObjetos-211024.dll
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\bin\Debug\net6.0-windows\TDSListaDeObjetos-211024.pdb
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.csproj.AssemblyReference.cache
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos_211024.Form1.resources
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.csproj.GenerateResource.cache
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.AssemblyInfoInputs.cache
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.AssemblyInfo.cs
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.csproj.CoreCompileInputs.cache
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.dll
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\refint\TDSListaDeObjetos-211024.dll
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.pdb
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\TDSListaDeObjetos-211024.genruntimeconfig.cache
+C:\Users\NABILALEXANDROSGARAB\Desktop\TDS-211024\TDSListaDeObjetos-211024\TDSListaDeObjetos-211024\obj\Debug\net6.0-windows\ref\TDSListaDeObjetos-211024.dll
