@@ -32,6 +32,7 @@ namespace TDSListaDeObjetos_211024
             txtQtd.Clear();
             txtNome.Clear();
 
+            //Chama o método para carregamento dos produtos
             CarregaProdutos();
         }
 
@@ -39,7 +40,7 @@ namespace TDSListaDeObjetos_211024
         {
             BindingList<Produto> listaProdutos = new BindingList<Produto>();
 
-            foreach(Produto produto in produtos)
+            foreach (Produto produto in produtos)
             {
                 listaProdutos.Add(produto);
             }
@@ -48,5 +49,17 @@ namespace TDSListaDeObjetos_211024
 
         }
 
+        private void btnApagar_Click(object sender, EventArgs e)
+        {
+            int idProduto = Convert.ToInt32(txtId.Text);
+                                           //onde
+            Produto produto = produtos.Find(x => x.id == idProduto);//produto => produto.id == id.inputado
+
+            if (produto != null) {
+                produtos.Remove(produto);
+            }
+
+            CarregaProdutos();
+        }
     }
 }

@@ -38,12 +38,17 @@
             txtNome = new TextBox();
             btnAdicionar = new Button();
             dgvProdutos = new DataGridView();
+            id = new DataGridViewTextBoxColumn();
+            nome = new DataGridViewTextBoxColumn();
+            quantidade = new DataGridViewTextBoxColumn();
+            valor = new DataGridViewTextBoxColumn();
+            btnApagar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProdutos).BeginInit();
             SuspendLayout();
             // 
             // txtId
             // 
-            txtId.Location = new Point(117, 109);
+            txtId.Location = new Point(67, 56);
             txtId.Name = "txtId";
             txtId.Size = new Size(100, 23);
             txtId.TabIndex = 0;
@@ -51,7 +56,7 @@
             // lblId
             // 
             lblId.AutoSize = true;
-            lblId.Location = new Point(73, 109);
+            lblId.Location = new Point(23, 56);
             lblId.Name = "lblId";
             lblId.Size = new Size(17, 15);
             lblId.TabIndex = 1;
@@ -60,7 +65,7 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(73, 143);
+            lblNome.Location = new Point(23, 90);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(40, 15);
             lblNome.TabIndex = 3;
@@ -68,7 +73,7 @@
             // 
             // txtValor
             // 
-            txtValor.Location = new Point(117, 209);
+            txtValor.Location = new Point(67, 156);
             txtValor.Name = "txtValor";
             txtValor.Size = new Size(100, 23);
             txtValor.TabIndex = 2;
@@ -76,7 +81,7 @@
             // lblValor
             // 
             lblValor.AutoSize = true;
-            lblValor.Location = new Point(73, 209);
+            lblValor.Location = new Point(23, 156);
             lblValor.Name = "lblValor";
             lblValor.Size = new Size(33, 15);
             lblValor.TabIndex = 5;
@@ -84,7 +89,7 @@
             // 
             // txtQtd
             // 
-            txtQtd.Location = new Point(117, 180);
+            txtQtd.Location = new Point(67, 127);
             txtQtd.Name = "txtQtd";
             txtQtd.Size = new Size(100, 23);
             txtQtd.TabIndex = 4;
@@ -93,7 +98,7 @@
             // 
             lblQtd.AccessibleDescription = "lblQtd";
             lblQtd.AutoSize = true;
-            lblQtd.Location = new Point(73, 180);
+            lblQtd.Location = new Point(23, 127);
             lblQtd.Name = "lblQtd";
             lblQtd.Size = new Size(27, 15);
             lblQtd.TabIndex = 7;
@@ -101,14 +106,14 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(117, 143);
+            txtNome.Location = new Point(67, 90);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(100, 23);
             txtNome.TabIndex = 6;
             // 
             // btnAdicionar
             // 
-            btnAdicionar.Location = new Point(117, 238);
+            btnAdicionar.Location = new Point(67, 185);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(100, 23);
             btnAdicionar.TabIndex = 8;
@@ -118,19 +123,62 @@
             // 
             // dgvProdutos
             // 
+            dgvProdutos.AllowUserToAddRows = false;
+            dgvProdutos.AllowUserToDeleteRows = false;
             dgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProdutos.Location = new Point(247, 109);
+            dgvProdutos.Columns.AddRange(new DataGridViewColumn[] { id, nome, quantidade, valor });
+            dgvProdutos.Location = new Point(173, 56);
             dgvProdutos.Name = "dgvProdutos";
+            dgvProdutos.ReadOnly = true;
             dgvProdutos.RowTemplate.Height = 25;
-            dgvProdutos.Size = new Size(356, 152);
+            dgvProdutos.Size = new Size(457, 152);
             dgvProdutos.TabIndex = 9;
+            // 
+            // id
+            // 
+            id.DataPropertyName = "id";
+            id.HeaderText = "Identificador";
+            id.Name = "id";
+            id.ReadOnly = true;
+            // 
+            // nome
+            // 
+            nome.DataPropertyName = "nome";
+            nome.HeaderText = "Nome";
+            nome.Name = "nome";
+            nome.ReadOnly = true;
+            // 
+            // quantidade
+            // 
+            quantidade.DataPropertyName = "quantidade";
+            quantidade.HeaderText = "Quantidade";
+            quantidade.Name = "quantidade";
+            quantidade.ReadOnly = true;
+            // 
+            // valor
+            // 
+            valor.DataPropertyName = "valor";
+            valor.HeaderText = "Valor";
+            valor.Name = "valor";
+            valor.ReadOnly = true;
+            // 
+            // btnApagar
+            // 
+            btnApagar.Location = new Point(67, 214);
+            btnApagar.Name = "btnApagar";
+            btnApagar.Size = new Size(100, 23);
+            btnApagar.TabIndex = 10;
+            btnApagar.Text = "Apagar";
+            btnApagar.UseVisualStyleBackColor = true;
+            btnApagar.Click += btnApagar_Click;
             // 
             // Form1
             // 
             AcceptButton = btnAdicionar;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(653, 328);
+            ClientSize = new Size(653, 269);
+            Controls.Add(btnApagar);
             Controls.Add(dgvProdutos);
             Controls.Add(btnAdicionar);
             Controls.Add(lblQtd);
@@ -160,5 +208,10 @@
         private TextBox txtNome;
         private Button btnAdicionar;
         private DataGridView dgvProdutos;
+        private DataGridViewTextBoxColumn id;
+        private DataGridViewTextBoxColumn nome;
+        private DataGridViewTextBoxColumn quantidade;
+        private DataGridViewTextBoxColumn valor;
+        private Button btnApagar;
     }
 }
