@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\TDS-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024.csproj",
+      "projectUniqueName": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\231024Git\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024.csproj",
       "projectName": "TDSListaDeObjetos-211024",
-      "projectPath": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\TDS-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024.csproj",
+      "projectPath": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\231024Git\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024.csproj",
       "packagesPath": "C:\\Users\\NABILALEXANDROSGARAB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\TDS-211024\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\obj\\",
+      "outputPath": "C:\\Users\\NABILALEXANDROSGARAB\\Desktop\\231024Git\\TDSListaDeObjetos-211024\\TDSListaDeObjetos-211024\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
